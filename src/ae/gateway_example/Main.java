@@ -15,9 +15,9 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		GatewayUser gatewayuser = new GatewayUser();
 		
-		
-
+		gatewayuser.printData("bin/TextFiles/DataFile.txt");
 	}
 
 }
