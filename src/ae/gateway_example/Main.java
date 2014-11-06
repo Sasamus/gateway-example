@@ -15,7 +15,9 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Gateway gateway = new Gateway();
+		
+		System.out.println(gateway.Read("bin/TextFiles/DataFile.txt"));
 
 	}
 
