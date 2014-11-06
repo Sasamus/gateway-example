@@ -17,9 +17,13 @@ public class GatewayUser {
 	
 	/**
 	 * Prints data
+	 * 
+	 * @param filename Holds the path to the file to print data from
 	 */
-	public void printData() {
+	public void printData(String filename) {
+		Gateway gateway = new Gateway();
 		
+		System.out.println(gateway.Read(filename));
 		
 	}
 

@@ -15,9 +15,8 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Gateway gateway = new Gateway();
 		
-		System.out.println(gateway.Read("bin/TextFiles/DataFile.txt"));
+		
 
 	}
 
