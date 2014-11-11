@@ -20,11 +20,11 @@ public class Gateway {
 	 * @param filename The name of the file to read from
 	 * @return A String read from file
 	 */
-	public String Read(String filename){
+	public String Read(){
 		
 		String line = null;
 		try {
-			line = new Scanner(new File(filename)).nextLine();
+			line = new Scanner(new File("bin/TextFiles/DataFile.txt")).nextLine();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

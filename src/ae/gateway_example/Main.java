@@ -17,7 +17,7 @@ public class Main {
 	public static void main(String[] args) {
 		Gateway gateway = new Gateway();
 		
-		System.out.println(gateway.Read("bin/TextFiles/DataFile.txt"));
+		System.out.println(gateway.Read());
 	}
 
 }
