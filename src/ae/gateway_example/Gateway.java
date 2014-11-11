@@ -13,13 +13,6 @@ import java.util.Scanner;
  * @since  2014-11-06
  */
 public class Gateway {
-
-	/**
-	 * Constructor
-	 */
-	public Gateway() {
-		// TODO Auto-generated constructor stub
-	}
 	
 	/**
 	 * Reads from file
@@ -31,7 +24,7 @@ public class Gateway {
 		
 		String line = null;
 		try {
-			line = new Scanner(new File(filename)).useDelimiter("\\Z").next();
+			line = new Scanner(new File(filename)).nextLine();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

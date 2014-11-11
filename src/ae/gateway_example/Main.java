@@ -15,9 +15,9 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		GatewayUser gatewayuser = new GatewayUser();
+		Gateway gateway = new Gateway();
 		
-		gatewayuser.printData("bin/TextFiles/DataFile.txt");
+		System.out.println(gateway.Read("bin/TextFiles/DataFile.txt"));
 	}
 
 }
